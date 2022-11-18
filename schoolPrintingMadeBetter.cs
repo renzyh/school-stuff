@@ -15,6 +15,7 @@ namespace z
 
             {
             //    Console.WriteLine(parsedEnteredNumber);
+                //      thanks for checking this out :-)
 
                 if (parsedEnteredNumber > 0 && parsedEnteredNumber < 11) { 
                 
