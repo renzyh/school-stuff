@@ -47,9 +47,9 @@ namespace calculator
                         Console.WriteLine($"{firstNumber} % {secondNumber} = {firstNumber % secondNumber}\n");
                     }
                     else if (method == "^")
-                        {
-                            Console.WriteLine($"{firstNumber} ^ {secondNumber} = {Math.Pow(firstNumber, secondNumber)}\n");
-                        }
+                    {
+                        Console.WriteLine($"{firstNumber} ^ {secondNumber} = {Math.Pow(firstNumber, secondNumber)}\n");
+                    }
 
                     else { Console.WriteLine("That method doesn't exist!\n"); }
                 }
