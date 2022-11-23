@@ -11,7 +11,7 @@ namespace calculator
         static void Main(string[] args)
         {
 
-            Console.WriteLine("\nMethods:\n+ to plus\n- to minus\n* to multiplicate\n/ to divide\n% to modulus\n\n");
+            Console.WriteLine("\nMethods:\n+ to plus\n- to minus\n* to multiplicate\n/ to divide\n% to modulus\n^ to power\n\n");
            
             while (true) { 
             Console.Write("Enter your first number: ");
@@ -46,6 +46,11 @@ namespace calculator
                     {
                         Console.WriteLine($"{firstNumber} % {secondNumber} = {firstNumber % secondNumber}\n");
                     }
+                    else if (method == "^")
+                        {
+                            Console.WriteLine($"{firstNumber} ^ {secondNumber} = {Math.Pow(firstNumber, secondNumber)}\n");
+                        }
+
                     else { Console.WriteLine("That method doesn't exist!\n"); }
                 }
                 else { Console.WriteLine("Entered text wasn't a number\n"); }
